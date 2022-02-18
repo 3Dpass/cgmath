@@ -15,10 +15,10 @@
 
 use approx;
 
-use std::fmt;
-use std::ops::*;
+use core::fmt;
+use core::ops::*;
 
-use num_traits::{Float, Num};
+use num_traits::{float::Float, Num};
 
 /// Base numeric types with partial ordering
 pub trait BaseNum:

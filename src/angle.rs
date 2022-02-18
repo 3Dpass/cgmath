@@ -15,7 +15,7 @@
 
 //! Angle units for type-safe, self-documenting code.
 
-use std::f64;
+use core::f64;
 use std::fmt;
 use std::iter;
 use std::ops::*;

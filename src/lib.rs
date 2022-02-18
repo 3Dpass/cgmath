@@ -51,6 +51,9 @@
 //! ```
 
 #![cfg_attr(feature = "simd", feature(specialization))]
+#![no_std]
+
+extern crate core as std;
 
 #[macro_use]
 extern crate approx;
